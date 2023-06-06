@@ -20,7 +20,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1940533600256
-    m_Key: DEF
+    m_Key: Play button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 910736350801920
+    m_Key: Settings button/text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 910761541791744
+    m_Key: Exit button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 911180938637312
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 911311398268928
+    m_Key: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 911393942171648
+    m_Key: Resolutions
     m_Metadata:
       m_Items: []
   m_Metadata:
