@@ -1,0 +1,300 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'pl' Physical Memory: 32633 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kkonarze/Documents/GitHub/Gra/Gra
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52694
+Successfully changed project path to: C:/Users/kkonarze/Documents/GitHub/Gra/Gra
+C:/Users/kkonarze/Documents/GitHub/Gra/Gra
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19424] Host "[IP] 172.25.4.82 [Port] 0 [Flags] 2 [Guid] 1555709303 [EditorId] 1555709303 [Version] 1048832 [Id] WindowsEditor(7,CDV-N30209) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19424] Host "[IP] 172.25.4.82 [Port] 0 [Flags] 2 [Guid] 1555709303 [EditorId] 1555709303 [Version] 1048832 [Id] WindowsEditor(7,CDV-N30209) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 73.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kkonarze/Documents/GitHub/Gra/Gra/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12108 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002789 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.483 seconds
+Domain Reload Profiling:
+	ReloadAssembly (483ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (355ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (81ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006444 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\kkonarze\Documents\GitHub\Gra\Gra\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1362ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (1197ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (774ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (664ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (113.5 KB). Loaded Objects now: 4884.
+Memory consumption went from 152.0 MB to 151.9 MB.
+Total: 10.343800 ms (FindLiveObjects: 0.324100 ms CreateObjectMapping: 0.148300 ms MarkObjects: 9.770300 ms  DeleteObjects: 0.100000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 241.547786 seconds.
+  path: Assets/Studnia.fbx
+  artifactKey: Guid(1207ff659962d324ba07e1a750d61c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Studnia.fbx using Guid(1207ff659962d324ba07e1a750d61c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03655b0d3b2c36ae532f6e4193c2a3a7') in 0.313880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kurnik.fbx
+  artifactKey: Guid(6f7e87634e6e91f42b22e649d80099af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kurnik.fbx using Guid(6f7e87634e6e91f42b22e649d80099af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16048429dcda24b26e80be7b4e3c954a') in 0.043449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/miska1.fbx
+  artifactKey: Guid(90b140c420b56c54aafcf0d8641d9840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miska1.fbx using Guid(90b140c420b56c54aafcf0d8641d9840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1ed328b14e1c5584efc4b102178eea') in 0.028986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/dom4.fbx
+  artifactKey: Guid(abca7f6b9451ea84d8920f2c37bb07fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dom4.fbx using Guid(abca7f6b9451ea84d8920f2c37bb07fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac3750444004e466319da638730161a') in 0.110021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/miska2.fbx
+  artifactKey: Guid(56d0ce84b7b1cee4590417cfb0b83cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/miska2.fbx using Guid(56d0ce84b7b1cee4590417cfb0b83cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd631ebe7fa4b9f22d40a45451d1ba697') in 0.013381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/box.fbx
+  artifactKey: Guid(21199facd9dfc2b4fbc0605c9253c92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/box.fbx using Guid(21199facd9dfc2b4fbc0605c9253c92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55cd047ba7354c5cb2bb84e147e66f3') in 0.115118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/stol1.fbx
+  artifactKey: Guid(0b6bd68bfd858ef48bddfd29dfe500ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stol1.fbx using Guid(0b6bd68bfd858ef48bddfd29dfe500ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88a46c51a8e91c22256379d1df7f021') in 0.081114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/pig.fbx
+  artifactKey: Guid(5ecac3871000bac49a834860e3ebccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pig.fbx using Guid(5ecac3871000bac49a834860e3ebccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a134683e81b3feb2a86eba33d8a328') in 0.114118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/money.fbx
+  artifactKey: Guid(250ab845755568941bb72ec90d167690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/money.fbx using Guid(250ab845755568941bb72ec90d167690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9882b4afd17bc60aa7be1cf15c77c7dd') in 0.087583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/beczka export to Unity.fbx
+  artifactKey: Guid(892f70747ecf08e4baffd50a7bdccc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/beczka export to Unity.fbx using Guid(892f70747ecf08e4baffd50a7bdccc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed2736da9e936efc16893d29200548a') in 0.088519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/beczka2 export to Unity.fbx
+  artifactKey: Guid(1b3e157dd2cbc56409787744df6e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/beczka2 export to Unity.fbx using Guid(1b3e157dd2cbc56409787744df6e7614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2ef4a38b1c076a1c8ae5c8a373b7f7') in 0.084083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/padok2.fbx
+  artifactKey: Guid(44b482d8b06760a4a94912f2af03d66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/padok2.fbx using Guid(44b482d8b06760a4a94912f2af03d66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f048665b33f3482c557b2c1312817433') in 0.051410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/dom3.fbx
+  artifactKey: Guid(b22dd8eaabc3431419be50961b9e76c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dom3.fbx using Guid(b22dd8eaabc3431419be50961b9e76c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dfcf929132c642be7a11d23b5ece88') in 0.092553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/stol3.fbx
+  artifactKey: Guid(38372a97c115ca8498c8607516310d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stol3.fbx using Guid(38372a97c115ca8498c8607516310d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7e9f9c6e6e79e3e6ef937868b1e6b3') in 0.018801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/stol4.fbx
+  artifactKey: Guid(627133337ba30ae4bbf9bbd01c020de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stol4.fbx using Guid(627133337ba30ae4bbf9bbd01c020de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda3e02a6706d1c70f8366da565d129e') in 0.069757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/padok1.fbx
+  artifactKey: Guid(e8c0f7d1e14779c4ca7128b83097351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/padok1.fbx using Guid(e8c0f7d1e14779c4ca7128b83097351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87701ffcfe0bc7a5f782edbbd9e34268') in 0.047591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/krowa.fbx
+  artifactKey: Guid(303732e3eb0998f4fbf90564311ece12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/krowa.fbx using Guid(303732e3eb0998f4fbf90564311ece12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ddaffa7a53cb2d0a204500806b995b') in 0.125684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MainAudioMixer.mixer
+  artifactKey: Guid(f4da208c58451094fa8f51ba752610ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainAudioMixer.mixer using Guid(f4da208c58451094fa8f51ba752610ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5bce19aa068200a7ec651827fad6ef') in 0.003737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/stol2.fbx
+  artifactKey: Guid(9950dc14c393d494390d8058271a3b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stol2.fbx using Guid(9950dc14c393d494390d8058271a3b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e873cbdf5837d7571782ad671f8312') in 0.014690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.486934 seconds.
+  path: Assets/Models/ва2.max
+  artifactKey: Guid(7f50e889eee0c554499b66c810f2cbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ва2.max using Guid(7f50e889eee0c554499b66c810f2cbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a19b1ba0b85361bbef6a971ebdf763') in 1.605385 seconds 
