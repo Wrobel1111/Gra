@@ -43,6 +43,14 @@ MonoBehaviour:
     m_Key: Resolutions
     m_Metadata:
       m_Items: []
+  - m_Id: 3567407907004416
+    m_Key: Button Upgrade Major - Level too low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3567607803338752
+    m_Key: Button Upgrade Major - Upgrade available
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
