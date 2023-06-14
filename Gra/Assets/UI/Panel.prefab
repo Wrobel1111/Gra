@@ -740,7 +740,6 @@ GameObject:
   - component: {fileID: 2802367032874348293}
   - component: {fileID: 2802367032874348291}
   - component: {fileID: 2802367032874348292}
-  - component: {fileID: 1831692762911058394}
   - component: {fileID: 2618601991243552682}
   m_Layer: 5
   m_Name: Panel
@@ -809,27 +808,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!223 &1831692762911058394
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2802367032874348294}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!114 &2618601991243552682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,6 +972,7 @@ GameObject:
   - component: {fileID: 2802367033055963107}
   - component: {fileID: 2802367033055963108}
   - component: {fileID: 2802367033055963109}
+  - component: {fileID: 1153462234793268258}
   m_Layer: 5
   m_Name: Button X
   m_TagString: Untagged
@@ -1104,10 +1083,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2802367032874348294}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1153462234793268258}
+        m_TargetAssemblyTypeName: Destroy, Assembly-CSharp
+        m_MethodName: DestroyFunction
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1116,6 +1095,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1153462234793268258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2802367033055963111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c748c75a18c534ca2b4c66bfb48be9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 2802367032874348294}
 --- !u!1 &2802367033771987436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,8 +1468,9 @@ GameObject:
   - component: {fileID: 5877191366794169999}
   - component: {fileID: 3905655849727275318}
   - component: {fileID: 5735716590481298067}
+  - component: {fileID: 1231960025311483917}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button Minor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1585,7 +1578,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3905655849727275318}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1231960025311483917}
+        m_TargetAssemblyTypeName: LevelingMethods, Assembly-CSharp
+        m_MethodName: Upgrade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1231960025311483917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5390609596903046330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453a13179b4c5ed4fbf3ae3d9fc420f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 2802367032874348294}
 --- !u!1 &6117177949962598733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,6 +1654,7 @@ GameObject:
   - component: {fileID: 3387525696855921636}
   - component: {fileID: 2877580346447462597}
   - component: {fileID: 205556678185041657}
+  - component: {fileID: 1440486742197130930}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1745,7 +1764,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2877580346447462597}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1440486742197130930}
+        m_TargetAssemblyTypeName: LevelingMethods, Assembly-CSharp
+        m_MethodName: Upgrade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1440486742197130930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7792923508903363909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453a13179b4c5ed4fbf3ae3d9fc420f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 2802367032874348294}
 --- !u!1 &7970280042811431366
 GameObject:
   m_ObjectHideFlags: 0

@@ -1213,10 +1213,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 499687167}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e2a7de029b948d489b6338dac18823c, type: 3}
+  m_Script: {fileID: 11500000, guid: 458ab6e8e6c56b04ca72c5f16fe31d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stat: {fileID: 11400000, guid: 37e1830c32f4cff42b458f8e715712aa, type: 2}
+  stats:
+    objectName: A
+    objectDescription: Here is A
+    levelMajor: 0
+    levelMinor: 0
+    objectsInWorld: []
 --- !u!1 &720697668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,7 +2940,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1379614810}
-  - component: {fileID: 1379614811}
   m_Layer: 0
   m_Name: Main house
   m_TagString: Untagged
@@ -2958,19 +2962,6 @@ Transform:
   m_Father: {fileID: 1520955117}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1379614811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1379614809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e2a7de029b948d489b6338dac18823c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stat: {fileID: 11400000, guid: 37e1830c32f4cff42b458f8e715712aa, type: 2}
 --- !u!1 &1408703798
 GameObject:
   m_ObjectHideFlags: 0
