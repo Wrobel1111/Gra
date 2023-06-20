@@ -14,6 +14,7 @@ public class Leveling : MonoBehaviour
 	public Button buttonUpgradeMinor;
 	[SerializeField]
 	GameObject descriptionMinorGO;
+	
 
 	
 	void Start()
