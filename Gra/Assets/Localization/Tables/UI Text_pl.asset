@@ -23,7 +23,35 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1940533600256
-    m_Localized: er
+    m_Localized: Graj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 910736350801920
+    m_Localized: Ustawienia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 910761541791744
+    m_Localized: "Wyjd\u017A z gry"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 911180938637312
+    m_Localized: "J\u0119zyk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 911311398268928
+    m_Localized: "G\u0142o\u015Bno\u015B\u0107"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 911393942171648
+    m_Localized: "Rozdzielczo\u015B\u0107"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3567407907004416
+    m_Localized: Za niski poziom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3567607803338752
+    m_Localized: Ulepsz teraz!
     m_Metadata:
       m_Items: []
   references:
