@@ -26,14 +26,25 @@ public class LevelingMethods : MonoBehaviour
 		var objectStats = obj.GetComponent<Data>().stats;
 		if (this.gameObject.name == "Button Minor")
 		{
-			if (objectStats.levelMinor < 9)
+			if (objectStats.levelMinor < 8)
 			{
 				objectStats.levelMinor += 1;
 			}
-			else if (objectStats.levelMinor == 9)
+			else if (objectStats.levelMinor == 8)
 			{
+				objectStats.levelMinor += 1;
 				bum.interactable = false;
 				buM.interactable = true;
+			}
+		}
+		else if (this.gameObject.name == "Button Major")
+		{
+			if (objectStats.levelMinor == 9)
+			{
+				objectStats.levelMajor += 1;
+				objectStats.levelMinor = 0;
+				bum.interactable = true;
+				buM.interactable = false;
 			}
 		}
 	}
