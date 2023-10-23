@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ace2c717991941449182eda085a2b43, type: 3}
   m_Name: Potato
   m_EditorClassIdentifier: 
-  cropName: 
+  cropName: Potato
   model: {fileID: 0}

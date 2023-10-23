@@ -9,6 +9,7 @@ public class LoadCropsList : MonoBehaviour
 	Dropdown cropsSelectionDropdown;
 	[SerializeField]
 	CropsListSO cropsListSO;
+	public GameObject objectRef;
 
 	List<string> listOfCropsNames = new List<string>();
 	void Start()

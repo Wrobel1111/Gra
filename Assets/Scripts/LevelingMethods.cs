@@ -16,9 +16,10 @@ public class LevelingMethods : MonoBehaviour
 		bum = panel.GetComponent<Leveling>().buttonUpgradeMinor;
 		buM = panel.GetComponent<Leveling>().buttonUpgradeMajor;
 		/*
-		* I have absolutely no idea, why can't I just derive from Leveling and use the same variables, but compiler screams CS0120
-		* I wasted on this two hours and concluded, that this abomination, no matter how much nonsense it represents, it just works™
-		* Please leave me alone, don't @ me
+		* UPDATE:
+		* I'm just stupid. I tried to reference the class, not the object (duh)
+		* This solution achieves referencing what already is set on creating a panel. Maybe there is some better way,
+		* but this works™
 		*/
 	}
 	public void Upgrade()

@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Crops List", menuName = "FIS/Crops List")]
 public class CropsListSO : ScriptableObject
 {
-	public List<ScriptableObject> cropsList = new List<ScriptableObject>();
+	public List<CropsSO> cropsList = new List<CropsSO>();
 	/*
 	* IMPORTANT: If multiple lists of crops will be introduced (and this is the intention of making it a SO), the CropSelection UI panel will
 	* have to be properly changed to catch the list on the fly - just like the upgrade UI panel does
