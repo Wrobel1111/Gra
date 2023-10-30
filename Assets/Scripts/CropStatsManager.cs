@@ -12,11 +12,6 @@ public class CropStatsManager : MonoBehaviour, ICropsManager
 	public void AddNewPlant(CropsSO plantToAdd)
 	{
 		//TODO: create a prefab of a plant and introduce here instantiation
+		
 	}
-}
-[System.Serializable]
-public abstract class CropsGrowth
-{
-	public enum GrowthStage {Seed, Sprout, Grown, Blooming, Fruitage, Old, Dying}
-	
 }

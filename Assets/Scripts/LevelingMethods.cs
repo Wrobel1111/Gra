@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+* Even though these are mostly methods, implementing them as interfaces would be undesirable, because it's easier to
+* just add this as a script component and assign objects in editor, rather than playing with parameters. It works™
+*/
 public class LevelingMethods : MonoBehaviour
 {
 	GameObject obj;

@@ -7,13 +7,19 @@ public class ConfirmSelectionCropsUI : MonoBehaviour
 {
 	[SerializeField]
 	Dropdown x;
-	[SerializeField]
-	GameObject usedCropsManager;
-	[SerializeField]
 	CropsListSO cropsListSOVar;
+	[SerializeField]
+	GameObject panel;
+	GameObject objectRef;
+	void Start()
+	{
+		cropsListSOVar = panel.GetComponent<LoadCropsList>().cropsListSO;
+		objectRef = panel.GetComponent<LoadCropsList>().objectRef;
+	}
+
 	
 	public void Clicked()
 	{
-		usedCropsManager.GetComponent<CropStatsManager>().AddNewPlant(cropsListSOVar.cropsList[x.value]);
+		objectRef.GetComponent<CropStatsManager>().AddNewPlant(cropsListSOVar.cropsList[x.value]);
 	}
 }

@@ -147,8 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   x: {fileID: 8441553330269099765}
-  usedCropsManager: {fileID: 2802367032874348294}
-  cropsListSOVar: {fileID: 11400000, guid: 775995b73ccdc9941bb4cb172f58d9bf, type: 2}
+  panel: {fileID: 2802367032874348294}
 --- !u!1 &883062118745423238
 GameObject:
   m_ObjectHideFlags: 0
