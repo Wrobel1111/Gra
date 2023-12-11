@@ -9,9 +9,24 @@ public class CropStatsManager : MonoBehaviour, ICropsManager
 	CropsListSO usedCropsList;
 	[SerializeField]
 	public GameObject ObjectRef;
+	[SerializeField]
+	GameObject barn;
 	public void AddNewPlant(CropsSO plantToAdd)
 	{
 		//TODO: create a prefab of a plant and introduce here instantiation
-		
+		//TEMPORARY
+		SendToBarn(plantToAdd);
+	}
+	public void SendToBarn(object x)
+	{
+		try
+		{
+			barn.GetComponent<Inventory>().AddToInventory(x);
+		}
+		catch (System.Exception ex)
+		{
+			Debug.Log("penis");
+		}
+
 	}
 }

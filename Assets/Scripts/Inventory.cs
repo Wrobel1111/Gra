@@ -1,25 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using System.IO;
+using System.Text;
 
 public class Inventory : MonoBehaviour, IManageInventory
 {
+	
 	Dictionary<object, float> inventory = new Dictionary<object, float>();
 
-	public void AddToInventory(CropsSO cropToAdd)
+	public void AddToInventory(object objectToAdd)
 	{
-		if (inventory.ContainsKey(cropToAdd))
+		if (inventory.ContainsKey(objectToAdd))
 		{
-			inventory[cropToAdd] += 1.0f;
+			inventory[objectToAdd] += 1.0f;
+			//Debug.Log(objectToAdd + " " + inventory[objectToAdd]);
 		}
 		else
 		{
-			inventory.Add(cropToAdd, 1.0f);
+			inventory.Add(objectToAdd, 1.0f);
 		}
-	}
-	public void AddToInventory()
-	{
-
 	}
 	public bool RemoveFromInventory(object objectToRemove, float value)
 	{
@@ -40,6 +41,16 @@ public class Inventory : MonoBehaviour, IManageInventory
 		{
 			Debug.Log("Object not in inventory");
 			return false;
+		}
+	}
+    public void Save()
+    {
+		string[,] content = null;
+
+		for (int i = 0; i < inventory.Count; i++)
+		{
+			content[i,0] = inventory.ElementAt(i).Key.ToString();
+			content[i,1] = inventory.ElementAt(i).Value.ToString();
 		}
 	}
 }
