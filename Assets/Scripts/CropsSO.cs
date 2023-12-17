@@ -11,6 +11,6 @@ public class CropsSO : ScriptableObject
 	GameObject model;
 	//public float growthTime;
 	/*
-	* TODO: write all of crops' properties, like above
+	TODO: write all of crops' properties, like above
 	*/
 }

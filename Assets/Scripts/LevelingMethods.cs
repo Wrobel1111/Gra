@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /*
-* Even though these are mostly methods, implementing them as interfaces would be undesirable, because it's easier to
-* just add this as a script component and assign objects in editor, rather than playing with parameters. It works™
+*IMPORTANT
+Even though these are mostly methods, implementing them as interfaces would be undesirable, because it's easier to
+just add this as a script component and assign objects in editor, rather than playing with parameters. It works™
 */
 public class LevelingMethods : MonoBehaviour
 {
@@ -21,9 +22,9 @@ public class LevelingMethods : MonoBehaviour
 		buM = panel.GetComponent<Leveling>().buttonUpgradeMajor;
 		/*
 		* UPDATE:
-		* I'm just stupid. I tried to reference the class, not the object (duh)
-		* This solution achieves referencing what already is set on creating a panel. Maybe there is some better way,
-		* but this works™
+		I'm just stupid. I tried to reference the class, not the object (duh)
+		This solution achieves referencing what already is set on creating a panel. Maybe there is some better way,
+		but this works™
 		*/
 	}
 	public void Upgrade()

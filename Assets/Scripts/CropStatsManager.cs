@@ -14,7 +14,7 @@ public class CropStatsManager : MonoBehaviour, ICropsManager
 	public void AddNewPlant(CropsSO plantToAdd)
 	{
 		//TODO: create a prefab of a plant and introduce here instantiation
-		//TEMPORARY
+		//!TEMPORARY
 		SendToBarn(plantToAdd);
 	}
 	public void SendToBarn(object x)
