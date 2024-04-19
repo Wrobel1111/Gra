@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Crops List", menuName = "FIS/Crops List")]
 public class CropsListSO : ScriptableObject
 {
 	public List<CropsSO> cropsList = new List<CropsSO>();
+	public List<GameObject> assetForCrops = new List<GameObject>();
 	/*
 	* IMPORTANT:
 	If multiple lists of crops will be introduced (and this is the intention of making it a SO), the CropSelection UI panel will
