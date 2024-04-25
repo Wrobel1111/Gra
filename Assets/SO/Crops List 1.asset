@@ -16,3 +16,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 70ccbd935faf4b14297cf8914173d881, type: 2}
   - {fileID: 11400000, guid: ddd61dbfdbb2a8e4e987f8f579f2b90a, type: 2}
   - {fileID: 11400000, guid: 23e0d15515195b240b919c43b8ce6b44, type: 2}
+  assetForCrops:
+  - {fileID: 6662724074749878944, guid: acb9b87fdbb88ff4a87decff2ff38c91, type: 3}
+  - {fileID: 6662724074749878944, guid: acb9b87fdbb88ff4a87decff2ff38c91, type: 3}
+  - {fileID: 6662724074749878944, guid: acb9b87fdbb88ff4a87decff2ff38c91, type: 3}

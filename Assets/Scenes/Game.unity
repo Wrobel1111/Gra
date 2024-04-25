@@ -894,6 +894,9 @@ MonoBehaviour:
   usedCropsList: {fileID: 11400000, guid: 775995b73ccdc9941bb4cb172f58d9bf, type: 2}
   ObjectRef: {fileID: 499687167}
   barn: {fileID: 152745256}
+  usedCropsGrid: {fileID: 1847240898}
+  usedCropsGridSO: {fileID: 0}
+  workers: []
 --- !u!1 &598217084
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1245,7 @@ GameObject:
   - component: {fileID: 838413110}
   - component: {fileID: 838413109}
   - component: {fileID: 838413108}
+  - component: {fileID: 838413111}
   m_Layer: 0
   m_Name: Worker #1
   m_TagString: Untagged
@@ -1337,6 +1341,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838413106}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &838413111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838413106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683cf869c9862e048b272d2dd974ffaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  busy: 0
 --- !u!1 &924385326
 GameObject:
   m_ObjectHideFlags: 0
@@ -3525,8 +3542,8 @@ Transform:
   m_GameObject: {fileID: 1847240898}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.44436622, y: 1.589798, z: 0.33470085}
-  m_LocalScale: {x: 0.04861775, y: 5.178495, z: 0.04350776}
+  m_LocalPosition: {x: 0.44, y: 1.5, z: 0.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 924385327}

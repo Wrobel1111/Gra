@@ -6,9 +6,9 @@ using UnityEngine;
 public class CropsSO : ScriptableObject
 {
 	[SerializeField]
-	string cropName;
+	public string cropName;
 	[SerializeField]
-	GameObject model;
+	public UnityEngine.Object model;
 	//public float growthTime;
 	/*
 	TODO: write all of crops' properties, like above

@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6ea87c0fa88db4ca0269bb8383bf4a, type: 3}
   m_Name: Crops Grid 1
   m_EditorClassIdentifier: 
+  spotsForPlants:
+  - {x: 0, y: 0, z: 0}
+  isSpotTaken: 

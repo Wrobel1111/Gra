@@ -18,12 +18,25 @@ public class CropsGridSO : ScriptableObject, IEnumerable, IEnumerator
 	}
 	public CropSpot[] cropSpots;
 	int position = -1;
-	public void Reset()
+
+    public object Current => throw new System.NotImplementedException();
+
+    public void Reset()
     {
         position = -1;
     }
-	//public List<Vector3> spotsForPlants = new List<Vector3>();
-	//public List<bool> isSpotTaken = new List<bool>();
-	//Because Unity doesn't serialize dictionaries, we have to use two lists and hope they are working together. Also enumerating doesn't work, so here is override:
+
+    public IEnumerator GetEnumerator()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public bool MoveNext()
+    {
+        throw new System.NotImplementedException();
+    }
+    //public List<Vector3> spotsForPlants = new List<Vector3>();
+    //public List<bool> isSpotTaken = new List<bool>();
+    //Because Unity doesn't serialize dictionaries, we have to use two lists and hope they are working together. Also enumerating doesn't work, so here is override:
 
 }

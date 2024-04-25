@@ -15,25 +15,13 @@ public class CropStatsManager : MonoBehaviour
 	GameObject usedCropsGrid;
 	[SerializeField]
 	CropsGridSO usedCropsGridSO;
-	
-
-	internal Vector3 PlaceForMyself()
+	[SerializeField]
+	GameObject[] workers;
+	Orders ordersClass = Orders.GetInstance();
+	public void AddNewPlant(CropsSO plantToAdd)
 	{
-		foreach (var spot in usedCropsGridSO)
-		{
-			if (true)
-			{
-				
-			}
-		}
-		return new Vector3(0,0,0);
-	}
-
-	public void AddNewPlant(CropsSO plantToAdd, int itsIndex)
-	{
-		//TODO: create a prefab of a plant and introduce here instantiation
-		
-		Instantiate(usedCropsList.assetForCrops[itsIndex], GetComponent<Transform>().localPosition, Quaternion.identity, this.GetComponentInParent<Transform>()); // Needs a correct spot to be placed (maybe a grid will be implemented?)
+		//! NOT IMPLEMENTED
+		//ordersClass.InformAboutOrder(plantToAdd);
 	}
 	public void SendToBarn(object x)
 	{

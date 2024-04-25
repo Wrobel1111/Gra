@@ -20,7 +20,7 @@ public class ConfirmSelectionCropsUI : MonoBehaviour
 	
 	public void Clicked()
 	{
-		objectRef.GetComponent<CropStatsManager>().AddNewPlant(cropsListSOVar.cropsList[x.value], x.value);
+		objectRef.GetComponent<CropStatsManager>().AddNewPlant(cropsListSOVar.cropsList[x.value]);
 		
 	}
 }

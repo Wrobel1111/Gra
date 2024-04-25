@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Lettuce
   m_EditorClassIdentifier: 
   cropName: Lettuce
-  model: {fileID: 0}
+  model: {fileID: 6662724074749878944, guid: acb9b87fdbb88ff4a87decff2ff38c91, type: 3}
